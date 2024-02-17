@@ -1,0 +1,9 @@
+<pre>{{ products | json }}</pre>
+
+<div *ngFor="let product of products">
+  <h3>{{ product.id }}</h3>
+  <h3>{{ product.type }}</h3>
+  <h3> {{ product.price }}</h3>
+  <h3>{{ product.description }}</h3>
+  <h3>{{ product.address }}</h3>
+</div>
